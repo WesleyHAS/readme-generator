@@ -1,7 +1,7 @@
-# sasdoubgfsaiuojb
+# soiauhdiusahda
 
   ## Description
-  saiudbsiapbuda
+  idauhsiuhda
 
   ## Table of Contents
 
@@ -14,29 +14,27 @@
   * [Tests](#tests)
 
   ## Installation
-  siaudbsiuahbduoisah
+  isugahdiuhagsd
 
   ## Usage
-  saiugdipasughda
+  iousahdiuahsd
 
   ## Credits
-  isouahdiuoasghda
+  sadoidhsoiahd
 
   ## License
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  N/A
   
-    This project is licensed under MIT.
-    https://opensource.org/license/mit/
 
   ## Features
-  soahdosuhda
+  odisaoijdsaoij
 
   ## How to Contribute
-  saouhdsauiohda
+  saioudhaiusydgha
 
   ## Tests
-  aispugdhasiugd
+  asioudhisuahd
 
   ## Contact Information
-  - GitHub: [siapugdsuaid](https://github.com/siapugdsuaid)
-  - Email: [aisudghaiusod](mailto:aisudghaiusod)
+  - GitHub: [iusodhaiudha](https://github.com/iusodhaiudha)
+  - Email: [iauhsiudhaisuhd](mailto:iauhsiudhaisuhd)

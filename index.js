@@ -1,11 +1,9 @@
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-
+// Import required modules
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./assets/scripts/generateMarkdown');
 
+// Define an array of questions for the user
 const questions = [
     {
       type: 'input',
@@ -66,19 +64,18 @@ const questions = [
     },
   ];
 
-
-// TODO: Create a function to write README file
+// Function to write data to a file
 function writeToFile(fileName, data) {
   fs.writeFile('README.md', data, err => {
     if (err) {
       console.error(err);
     } else {
-      console.log('response saved to answers.txt');
+      console.log('README created.');
     }
   })
 };
 
-// TODO: Create a function to initialize app
+// Function to initialize the application
 function init() {
   inquirer.prompt(questions)
     .then((data) => {
@@ -86,9 +83,9 @@ function init() {
       writeToFile('README.txt', dataMarkdown);
     })
     .catch((err) => {
-      console.error('Something went wrong:', err.message); // Log the specific error message
+      console.error('Something went wrong:', err.message);
     });
 };
 
-// Function call to initialize app
+// Call the initialization function
 init();
