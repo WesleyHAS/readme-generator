@@ -74,7 +74,7 @@ function renderLicenseSection(license) {
   if (license === 'N/A') {
     return ``;
   } else {
-    return `##License
+    return `
     This project is licensed under ${license}.
     ${renderLicenseLink(license)}`;
   };
@@ -88,15 +88,15 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
-  ## Table of Contents (Optional)
+  ## Table of Contents
 
-  ‣ [Installation](#installation)
-  ‣ [Usage](#usage)
-  ‣ [Credits](#credits)
-  ‣ [License](#license)
-  ‣ [Badges](#badges)
-  ‣ [Features](#features)
-  ‣ [Tests](#tests)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Badges](#badges)
+  * [Features](#features)
+  * [Tests](#tests)
 
   ## Installation
   ${data.installation}
