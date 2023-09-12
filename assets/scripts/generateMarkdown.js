@@ -38,104 +38,91 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch(license) {
     case 'Apache 2.0':
-      return 'https://opensource.org/license/apache-2-0/';
+      return `https://opensource.org/license/apache-2-0/`;
     case 'GNU V3':
-      return 'https://opensource.org/license/gpl-3-0/';
+      return `https://opensource.org/license/gpl-3-0/`;
     case 'MIT':
-      return 'https://opensource.org/license/mit/';
+      return `https://opensource.org/license/mit/`;
     case 'BSD 2-Clause':
-      return 'https://opensource.org/license/bsd-2-clause/';
+      return `https://opensource.org/license/bsd-2-clause/`;
     case 'BSD 3-Clause':
-      return 'https://opensource.org/license/bsd-3-clause/';
+      return `https://opensource.org/license/bsd-3-clause/`;
     case 'Boost Software License':
-      return 'https://opensource.org/license/bsl-1-0/';
+      return `https://opensource.org/license/bsl-1-0/`;
     case 'Creative Commons Zero V1':
-      return 'https://creativecommons.org/publicdomain/zero/1.0/';
+      return `https://creativecommons.org/publicdomain/zero/1.0/`;
     case 'Eclipse Public License 2.0':
-      return 'https://opensource.org/license/epl-2-0/';
+      return `https://opensource.org/license/epl-2-0/`;
     case 'GNU Affero V3':
-      return 'https://opensource.org/license/agpl-v3/';
+      return `https://opensource.org/license/agpl-v3/`;
     case 'GNU V2':
-      return 'https://opensource.org/license/gpl-2-0/';
+      return `https://opensource.org/license/gpl-2-0/`;
     case 'GNU Lesser V2.1':
-      return 'https://opensource.org/license/lgpl-2-1/';
+      return `https://opensource.org/license/lgpl-2-1/`;
     case 'Mozilla':
-      return 'https://opensource.org/license/mpl-2-0/';
+      return `https://opensource.org/license/mpl-2-0/`;
     case 'The Unlincense':
-      return 'https://opensource.org/license/unlicense/';
+      return `https://opensource.org/license/unlicense/`;
     default:
-      return '';
+      return ``;
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === 'N/A') {
+    return ``;
+  } else {
+    return `##License
+    This project is licensed under ${license}.
+    ${renderLicenseLink(license)}`;
+  };
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  
   return `# ${data.title}
 
-  # <Your-Project-Title>
+  ## Description
+  ${data.description}
 
-## Description
+  ## Table of Contents (Optional)
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+  ‣ [Installation](#installation)
+  ‣ [Usage](#usage)
+  ‣ [Credits](#credits)
+  ‣ [License](#license)
+  ‣ [Badges](#badges)
+  ‣ [Features](#features)
+  ‣ [Tests](#tests)
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+  ## Installation
+  ${data.installation}
 
-## Table of Contents (Optional)
+  ## Usage
+  ${data.usage}
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+  ## Credits
+  ${data.credits}
 
-‣ [Installation](#installation)
-‣ [Usage](#usage)
-‣ [Credits](#credits)
-‣ [License](#license)
-‣ [Badges](#badges)
-‣ [Features](#features)
-‣ [Tests](#tests)
+  ## License
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseSection(data.license)}
 
-## Installation
+  ## Features
+  ${data.features}
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+  ## How to Contribute
+  ${data.contribute}
 
-## Usage
+  ## Tests
+  ${data.tests}
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-![alt text](assets/images/screenshot.png)
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.`;
-
-
-}
+  ## Contact Information
+  - GitHub: [${data.github}](https://github.com/${data.github})
+  - Email: [${data.email}](mailto:${data.email})`
+};
 
 module.exports = generateMarkdown;
