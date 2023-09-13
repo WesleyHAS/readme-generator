@@ -96,9 +96,10 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
-  * [Badges](#badges)
   * [Features](#features)
+  * [Contribute](#contribute)
   * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
   ${data.installation}
@@ -115,7 +116,7 @@ function generateMarkdown(data) {
   ## Features
   ${data.features}
 
-  ## How to Contribute
+  ## Contribute
   ${data.contribute}
 
   ## Tests

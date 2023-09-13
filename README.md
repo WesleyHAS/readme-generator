@@ -12,18 +12,19 @@
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
-  * [Badges](#badges)
   * [Features](#features)
+  * [Contribute](#contribute)
   * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
   Install NodeJS. Install the Inquirer from NPM. Clone the repo and run node index.js.
 
   ## Usage
-  When prompted insert answers on the terminal for each section of the README file. Here is a [walkthrough](https://drive.google.com/file/d/1S6AIFcjfx62iaPzAnUhKa7SKVnzV8KRa/view?usp=sharing).
+  When prompted insert answers on the terminal for each section of the README file. Here is a [walkthrough](https://drive.google.com/file/d/1LewZo2SKQZTK75srJc0tiHu7TgNRTVly/view).
 
   ## Credits
-  https://github.com/coding-boot-camp/potential-enigma Starter code
+  [Starter code](https://github.com/coding-boot-camp/potential-enigma)
 
   ## License
   
@@ -33,7 +34,7 @@
   ## Features
   N/A
 
-  ## How to Contribute
+  ## Contribute
   N/A
 
   ## Tests
