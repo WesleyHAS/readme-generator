@@ -1,10 +1,10 @@
 
-  ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
-  # sauoihdiusahd
+  # README Generator
 
   ## Description
-  iaoushdiuhaidusha
+  This is an application that will automatically generate a README file with the users input.
 
   ## Table of Contents
 
@@ -17,28 +17,29 @@
   * [Tests](#tests)
 
   ## Installation
-  iauhdiusahiudhsad
+  Install NodeJS. Install the Inquirer from NPM. Clone the repo and run node index.js.
 
   ## Usage
-  aiouhsdiuhaiuhdsa
+  When prompted insert answers on the terminal for each section of the README file.
 
   ## Credits
-  aoiushdiouashd
+  https://github.com/coding-boot-camp/potential-enigma Starter code
 
   ## License
   
-    This project is licensed under Apache 2.0.
-    https://opensource.org/license/apache-2-0/
+    This project is licensed under MIT.
+    https://opensource.org/license/mit/
 
   ## Features
-  siudhaiusdh
+  N/A
 
   ## How to Contribute
-  ioauhsdiuahsd
+  N/A
 
   ## Tests
-  iouahsiudhaiuhds
+  N/A
 
-  ## Contact Information
-  - GitHub: [ioauhsiduhasiudh](https://github.com/ioauhsiduhasiudh)
-  - Email: [iauhsdiushadiuh](mailto:iauhsdiushadiuh)
+  ## Questions
+  If you have any questions please reach out at:
+  - GitHub: [WesleyHAS](https://github.com/WesleyHAS)
+  - Email: [wesley@email.com](mailto:wesley@email.com)
