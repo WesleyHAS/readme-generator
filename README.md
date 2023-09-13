@@ -1,7 +1,10 @@
-# soiauhdiusahda
+
+  ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+  
+  # sauoihdiusahd
 
   ## Description
-  idauhsiuhda
+  iaoushdiuhaidusha
 
   ## Table of Contents
 
@@ -14,27 +17,28 @@
   * [Tests](#tests)
 
   ## Installation
-  isugahdiuhagsd
+  iauhdiusahiudhsad
 
   ## Usage
-  iousahdiuahsd
+  aiouhsdiuhaiuhdsa
 
   ## Credits
-  sadoidhsoiahd
+  aoiushdiouashd
 
   ## License
-  N/A
   
+    This project is licensed under Apache 2.0.
+    https://opensource.org/license/apache-2-0/
 
   ## Features
-  odisaoijdsaoij
+  siudhaiusdh
 
   ## How to Contribute
-  saioudhaiusydgha
+  ioauhsdiuahsd
 
   ## Tests
-  asioudhisuahd
+  iouahsiudhaiuhds
 
   ## Contact Information
-  - GitHub: [iusodhaiudha](https://github.com/iusodhaiudha)
-  - Email: [iauhsiudhaisuhd](mailto:iauhsiudhaisuhd)
+  - GitHub: [ioauhsiduhasiudh](https://github.com/ioauhsiduhasiudh)
+  - Email: [iauhsdiushadiuh](mailto:iauhsdiushadiuh)

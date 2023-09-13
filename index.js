@@ -66,7 +66,7 @@ const questions = [
 
 // Function to write data to a file
 function writeToFile(fileName, data) {
-  fs.writeFile('README.md', data, err => {
+  fs.writeFile(fileName, data, err => {
     if (err) {
       console.error(err);
     } else {
@@ -80,7 +80,7 @@ function init() {
   inquirer.prompt(questions)
     .then((data) => {
       const dataMarkdown = generateMarkdown(data);
-      writeToFile('README.txt', dataMarkdown);
+      writeToFile('README.md', dataMarkdown);
     })
     .catch((err) => {
       console.error('Something went wrong:', err.message);
