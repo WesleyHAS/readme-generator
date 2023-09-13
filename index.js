@@ -80,7 +80,7 @@ function init() {
   inquirer.prompt(questions)
     .then((data) => {
       const dataMarkdown = generateMarkdown(data);
-      writeToFile('README.md', dataMarkdown);
+      writeToFile('README.txt', dataMarkdown);
     })
     .catch((err) => {
       console.error('Something went wrong:', err.message);
