@@ -20,7 +20,7 @@
   Install NodeJS. Install the Inquirer from NPM. Clone the repo and run node index.js.
 
   ## Usage
-  When prompted insert answers on the terminal for each section of the README file.
+  When prompted insert answers on the terminal for each section of the README file. Here is a [walkthrough](https://drive.google.com/file/d/1S6AIFcjfx62iaPzAnUhKa7SKVnzV8KRa/view?usp=sharing).
 
   ## Credits
   https://github.com/coding-boot-camp/potential-enigma Starter code
